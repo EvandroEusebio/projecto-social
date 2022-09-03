@@ -37,11 +37,30 @@ section#telefone{
     background-position: center;
 }
 
-#redes-sociais > img{
-    border-radius: 10px;
-    display: block;
-    width: 80px;
-    padding: 10px;
-    
-
+#tela{
+    position: relative;
+    top: 63px;
+    left: 16px;
+    width: 212px;
+    height: 374px;
 }
+
+#redes-sociais{
+    text-align: right;
+}
+
+#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 400);
+    box-sizing: border-box;
+}
+
+#redes-sociais img:hover{
+    border: 1px  solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 2px 2px 3px black;
+    transition: transform .5s, border 2s;
+}
+
