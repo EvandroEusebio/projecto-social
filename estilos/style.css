@@ -30,7 +30,7 @@ section#telefone{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 246px;
-    height: 500px;
+    height: 498px;
     background-image: url("../imagens/frame-iphone.png");
     background-repeat: no-repeat;
     background-size: 250px;
@@ -39,8 +39,8 @@ section#telefone{
 
 #tela{
     position: relative;
-    top: 63px;
-    left: 16px;
+    top: 62px;
+    left: 15px;
     width: 212px;
     height: 374px;
 }
